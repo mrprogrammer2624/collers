@@ -1,3 +1,5 @@
+import { Icons } from "./icons";
+
 export const headerList = [
   {
     key: "products",
@@ -25,53 +27,53 @@ export const testimonialData = [
   {
     name: "John Doe",
     avatar: "https://i.pravatar.cc/150?img=3",
-    company: "Company A",
-    companyLogo: "Company A",
-    position: "CEO",
+    company: "zoomerr",
+    companyLogo: Icons.zoomerr,
+    position: "Team Lead",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
     name: "John Doe",
     avatar: "https://i.pravatar.cc/150?img=1",
-    company: "Company A",
-    companyLogo: "Company A",
-    position: "CEO",
+    company: "shells",
+    companyLogo: Icons.shells,
+    position: "Co-founder",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
     name: "John Doe",
     avatar: "https://i.pravatar.cc/150?img=33",
-    company: "Company A",
-    companyLogo: "Company A",
-    position: "CEO",
+    company: "artVenue",
+    companyLogo: Icons.artVenue,
+    position: "Manager",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
     name: "John Doe",
     avatar: "https://i.pravatar.cc/150?img=34",
-    company: "Company A",
-    companyLogo: "Company A",
-    position: "CEO",
+    company: "zoomerr",
+    companyLogo: Icons.zoomerr,
+    position: "Team Lead",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
     name: "John Doe",
     avatar: "https://i.pravatar.cc/150?img=37",
-    company: "Company A",
-    companyLogo: "Company A",
-    position: "CEO",
+    company: "shells",
+    companyLogo: Icons.shells,
+    position: "Co-founder",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
     name: "John Doe",
     avatar: "https://i.pravatar.cc/150?img=23",
-    company: "Company A",
-    companyLogo: "Company A",
+    company: "artVenue",
+    companyLogo: Icons.artVenue,
     position: "CEO",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -79,17 +81,17 @@ export const testimonialData = [
   {
     name: "John Doe",
     avatar: "https://i.pravatar.cc/150?img=43",
-    company: "Company A",
-    companyLogo: "Company A",
-    position: "CEO",
+    company: "zoomerr",
+    companyLogo: Icons.zoomerr,
+    position: "Manager",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
     name: "John Doe",
     avatar: "https://i.pravatar.cc/150?img=36",
-    company: "Company A",
-    companyLogo: "Company A",
+    company: "artVenue",
+    companyLogo: Icons.artVenue,
     position: "CEO",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
