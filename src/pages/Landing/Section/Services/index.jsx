@@ -1,4 +1,6 @@
-import { COContinaer } from "@/components";
+import { bibendumTellus } from "@/assets/images";
+import { COButton, COContinaer } from "@/components";
+import { serviceList } from "@/constants/data";
 import React from "react";
 
 export const Services = () => {
@@ -15,9 +17,38 @@ export const Services = () => {
               tellus. Et volutpat proin neque placerat at bibendum quam tellus.
             </p>
           </div>
-          <div className="grid grid-cols-[auto_1fr] gap-32">
-            <div></div>
-            <div></div>
+          <div className="grid grid-cols-[auto_1fr] gap-32 mt-32">
+            <div>
+              {serviceList?.map((content, index) => (
+                <COButton key={index}>
+                  {content.icon}
+                  {content.name}
+                </COButton>
+              ))}
+            </div>
+            <div className="items-end justify-self-end">
+              <div>
+                <img
+                  src={bibendumTellus}
+                  alt="bibendumTellus"
+                  className="opacity-100 object-cover"
+                />
+              </div>
+              <div>
+                <img
+                  src={bibendumTellus}
+                  alt="bibendumTellus"
+                  className="opacity-0 object-cover"
+                />
+              </div>
+              <div>
+                <img
+                  src={bibendumTellus}
+                  alt="bibendumTellus"
+                  className="opacity-0 object-cover"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </COContinaer>

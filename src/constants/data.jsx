@@ -97,3 +97,30 @@ export const testimonialData = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
 ];
+
+export const serviceList = [
+  {
+    name: "Bibendum tellus",
+    icon: Icons.bibendumTellus,
+  },
+  {
+    name: "Cras eget",
+    icon: Icons.crasEget,
+  },
+  {
+    name: "Dolor pharetra",
+    icon: Icons.dolorPharetra,
+  },
+  {
+    name: "Amet, fringilla",
+    icon: Icons.ametFringilla,
+  },
+  {
+    name: "Amet nibh",
+    icon: Icons.ametNibh,
+  },
+  {
+    name: "Sed velit",
+    icon: Icons.sedVelit,
+  },
+];
