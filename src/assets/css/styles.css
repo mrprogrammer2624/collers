@@ -1,0 +1,11 @@
+html {
+  font-size: var(--html);
+  font-family: var(--font-primary);
+}
+
+body {
+  background-image: var(--body);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}

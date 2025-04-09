@@ -1,0 +1,54 @@
+@import "./fonts.css";
+@import "./variable.css";
+@import "./styles.css";
+@import "tailwindcss";
+
+@theme {
+  /* Font Family */
+  --font-primary: "Roboto", Arial, sans-serif, system-ui, -apple-system;
+  /* Color */
+  --color-sunflower-valley: #fbbf24;
+  --color-silent-ivory: #fef3c7;
+  --color-bellflower-blue: #e2e8f0;
+  --color-rainmaker: #475569;
+  --body: linear-gradient(180deg, #fffbeb 0%, #ffffff 89.63%);
+  /* Font Size */
+  --text-lg: var(--p);
+  --text-xl: var(--h6);
+  --text-2xl: var(--h5);
+  --text-3xl: var(--h4);
+  --text-4xl: var(--h3);
+  --text-5xl: var(--h2);
+  --text-6xl: var(--h1);
+}
+
+@layer base {
+  h1 {
+    font-size: var(--text-6xl);
+    line-height: var(--leading-normal);
+  }
+  h2 {
+    font-size: var(--text-5xl);
+    line-height: var(--leading-normal);
+  }
+  h3 {
+    font-size: var(--text-4xl);
+    line-height: var(--leading-normal);
+  }
+  h4 {
+    font-size: var(--text-3xl);
+    line-height: var(--leading-normal);
+  }
+  h5 {
+    font-size: var(--text-2xl);
+    line-height: var(--leading-normal);
+  }
+  h6 {
+    font-size: var(--text-xl);
+    line-height: var(--leading-normal);
+  }
+  p {
+    font-size: var(--text-lg);
+    line-height: var(--leading-relaxed);
+  }
+}

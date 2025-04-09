@@ -1,0 +1,16 @@
+:root {
+  /* Global Font Size */
+  --html: 10px;
+
+  /* Contianer Size */
+  --contianer-width: 1240px;
+
+  /* Font Size */
+  --h1: 7.2rem;
+  --h2: 5.6rem;
+  --h3: 3.2rem;
+  --h4: calc(var(--html) * 2.4);
+  --h5: calc(var(--html) * 2);
+  --h6: calc(var(--html) * 1.6);
+  --p: calc(var(--html) * 1.8);
+}
