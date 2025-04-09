@@ -1,6 +1,7 @@
 @import "./fonts.css";
 @import "./variable.css";
 @import "./styles.css";
+@import "swiper/css";
 @import "tailwindcss";
 
 @theme {

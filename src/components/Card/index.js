@@ -1,0 +1,1 @@
+export { COTestimonialCard } from "./COTestimonial/";
